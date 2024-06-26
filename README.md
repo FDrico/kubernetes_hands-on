@@ -23,6 +23,7 @@ Stateless apps --> Deployment.
     - Port can be anything, targetPort is the one that belongs to the service. Should be the same as the container port.
 
     ```mermaid
+    graph LR;
     Request --port8080-->MongoService--targetPort27017-->Pod
     ```
     - NodePort: External service type. Requires us to define a nodePort, between 30000 and 32767.
