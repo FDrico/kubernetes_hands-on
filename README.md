@@ -118,3 +118,15 @@ kubectl describe pod webapp-deployment-758fd7bc4d-j7lql # details about pod, lab
 ```
 kubectl logs mongo-deployment-5f6686d565-j6pr2
 ```
+
+```
+kubectl get svc
+```
+
+External (nodeport) services are available though the host ip, which can be obtained by:
+
+```
+minikube ip
+OR
+kubectl get node -o wide
+```
