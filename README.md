@@ -2,6 +2,7 @@
 
 
 Databases --> Statefulset
+
 Stateless apps --> Deployment.
 
 1. `ConfigMap` with MongoDB endpoint
