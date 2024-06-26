@@ -114,6 +114,7 @@ External Traffic Policy:  Cluster
 Events:                   <none>
 
 ```
+```
 kubectl describe pod webapp-deployment-758fd7bc4d-j7lql # details about pod, labels, configurations, etc.
 ```
 
